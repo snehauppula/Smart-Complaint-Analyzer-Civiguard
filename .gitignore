@@ -28,8 +28,9 @@ wheels/
 .installed.cfg
 *.egg
 
-# Serialized models (optional: remove this line if you want to commit .joblib)
+# Serialized models — keep this exception so deployment hosts get the trained pipeline
 *.joblib
+!complaint_nb_pipeline.joblib
 
 # Jupyter
 .ipynb_checkpoints/
@@ -38,6 +39,7 @@ wheels/
 .env
 .env.*
 !.env.example
+.streamlit/secrets.toml
 
 # IDE / OS
 .idea/

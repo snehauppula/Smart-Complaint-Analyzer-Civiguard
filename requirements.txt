@@ -1,0 +1,6 @@
+# Civic AI Analyzer — production / Streamlit Cloud / PaaS
+streamlit>=1.28.0
+scikit-learn>=1.3.0
+joblib>=1.3.0
+nltk>=3.8
+numpy>=1.24.0
