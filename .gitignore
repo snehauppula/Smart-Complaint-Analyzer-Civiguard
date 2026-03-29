@@ -28,6 +28,9 @@ wheels/
 .installed.cfg
 *.egg
 
+# Serialized models (optional: remove this line if you want to commit .joblib)
+*.joblib
+
 # Jupyter
 .ipynb_checkpoints/
 
